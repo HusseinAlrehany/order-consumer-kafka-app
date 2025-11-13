@@ -18,7 +18,7 @@ import java.util.Map;
 * as the producer. if not it throws exception ClassNotFound, and infinitely retries
 * OR we can Share the Order class via common library, like create new maven module,
 * or jar called order-model, move the order class there
-* and then added as dependency for both consumer and producer.
+* and then added as dependency for both consumer and producer, especially if the packages will be different
 * NOTE: the kafka broker not needed on both apps, existence in producer is enough.
 * */
 
